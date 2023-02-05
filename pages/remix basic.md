@@ -24,6 +24,6 @@
 - https://www.youtube.com/watch?v=CbW6gGfXUE8
 - https://remix.run/blog/remix-data-flow
 -
--
--
+- 一些 remix 的常用工具：
+	- https://github.com/m5r/awesome-remix
 -
