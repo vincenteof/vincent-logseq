@@ -1,0 +1,32 @@
+- demo 里的 template 无法直接启动，需要将 .env.example 文件重命名为 .env
+- https://github.com/remix-run/indie-stack/issues/54
+-
+- remix 的 route 系统也是基于 path 的，基本实现几乎就是 react-router v6
+-
+- 一般而言写一个页面通常需要两个东西，一个是对应的 api 接口，另一个是消费改 api 的前端组件。在 remix 中每个组件也可以是它自生消费的 api 路由，通过 loader 来实现，前端组件通过 useLoaderData 来绑定对应的接口。因为 api 路由和组件实在一起，type safety 也得到了保证。
+-
+- remix 的 indie stack 默认集成了 prisma 和 sqlite
+-
+- remix 的哲学：
+	- 在当下的 web infra 下，已经不需要要静态构建使得 serve 的更快了（lambda or edge function？）唯一需要解决的问题是用户的网速，因为需要尽可能较少需要下载的资源。一般在 spa 里，我们会在组件里发出情况，这这种做法会导致的问题是造成网络的 waterfall。在 remix 下，因为是 ssr 的，我们可以直接避免掉瀑布流的请求，直接并行请求静态 js 即可。其次，针对在 client 里对 api 接口数据做剪裁的情况，我们可以直接在 ssr 的时候处理，这样可以减少响应的 payload。
+	- remix 大量用到了 web 标准，诸如 [`<link rel="prefetch" />`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ), [`Request`](https://developer.mozilla.org/en-US/docs/Web/API/Request), [`Response`](https://developer.mozilla.org/en-US/docs/Web/API/Response), [`URLSearchParams`](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams) and [`URL`](https://developer.mozilla.org/en-US/docs/Web/API/URL)。因此，在浏览器端禁用 javascript 不会影响网站的正常使用。开启 javascript 可以增加网页交互性。
+	- remix 强调渐进式增强。网站本身可以禁用 js，但加上 js 以后可以增强 ux，诸如 pending 态，乐观 ui 等功能。本身的可以只做 ssr 的基本功能，但只要在纯 ssr 的代码上加上少量客户端代码，即可大大增强 ux。传统的 mvc 框架，在处理这种情况时可能需要在 client bundle 上增加大量代码。
+	- 不过度抽象，保证熟悉 remix 可以熟悉 web，不会造成知识迁移成本。
+-
+- remix 本身指代：
+	- 整个编译系统。基于 esbuild 构建出服务端 handler 的 bundle，客户端 bundle 以及 manifest。
+	- http handler 与 适配器。当 remix 运行与服务端时，它不是一个一个 server，而是一个基于 [Web Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) 的 handler。因此它不仅可以跑在 nodejs 上，也可以跑在非 node 环境诸如 [Cloudflare Workers](https://workers.cloudflare.com/) 和 [Deno Deploy](https://deno.com/deploy/docs)。
+	- 服务端框架。类似传统的 MVC 框架，它自身提供了 View 和 Controller 以及可自定义的 Model 层。一般而言 V 和 C 是分开的，在 remix 里两者同时集成与 route 里，每一个 V 有它自己的 C（UI focused 而非 model focused）。remix 的 route module 导出 `loader`, `action`, and `default` (component)。因为不是所有页面都需要大量的客户端 js 以及比浏览器默认行为更多的要求，这种心智模型也更利于渐进式增强。
+	- 浏览器端框架。基于服务端框架去渐进式增强。类似 spa，局部加载请求与 js。
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-

@@ -1,0 +1,7 @@
+- 一些需要全局配置的东西，比如 react-router 与 react-query，他们需要全局的 provider，一般 provider 是是子应用模板里独有的，不会全局共享，所以最好保证 remote 与 host 里的版本一致，避免 runtime 出现意料之外的问题。
+- 两边的共有依赖都放在 shared 里，避免出现 runtime 不一致。
+- 如果实在保证不了 runtime 一致（比如同时存在新老架构），那么应该尽量保证共享的 module 是纯净的，即对外圈的依赖都通过参数传入，而不是默认拿当前环境里的东西。
+- 不同环境间 publicPath 的 设置
+	- https://github.com/module-federation/module-federation-examples/issues/102
+	- https://github.com/jantimon/html-webpack-plugin/issues/1514
+- mf 的官方 demo 里 publicPath 都是用自动推断的，但是因为与 qiankun 集成使用，加载 script 的方式是通过手动 fetch 结合 append 的，并且还有沙箱存在，导致 document.currentScript 为 null，导致自动推断失败。目前的解决方案是 dev 环境写死 publicPath。
