@@ -19,8 +19,7 @@
 	- 服务端框架。类似传统的 MVC 框架，它自身提供了 View 和 Controller 以及可自定义的 Model 层。一般而言 V 和 C 是分开的，在 remix 里两者同时集成与 route 里，每一个 V 有它自己的 C（UI focused 而非 model focused）。remix 的 route module 导出 `loader`, `action`, and `default` (component)。因为不是所有页面都需要大量的客户端 js 以及比浏览器默认行为更多的要求，这种心智模型也更利于渐进式增强。
 	- 浏览器端框架。基于服务端框架去渐进式增强。类似 spa，局部加载请求与 js。
 -
--
--
+- 关于 remix 的一些核心思想
 -
 -
 -
