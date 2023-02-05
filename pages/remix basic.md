@@ -20,12 +20,8 @@
 	- 浏览器端框架。基于服务端框架去渐进式增强。类似 spa，局部加载请求与 js。
 -
 - 关于 remix 的一些核心思想
--
--
--
--
--
--
--
+- https://www.youtube.com/watch?v=95B8mnhzoCM
+- https://www.youtube.com/watch?v=CbW6gGfXUE8
+- https://remix.run/blog/remix-data-flow
 -
 -
