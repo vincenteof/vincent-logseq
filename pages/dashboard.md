@@ -30,5 +30,6 @@
 - todo
 	- {{query (todo later)}}
 - in progress
+  collapsed:: true
 	- {{query (todo now)}}
 	-
