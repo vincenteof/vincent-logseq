@@ -101,7 +101,12 @@
 	- [https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
 	- [https://ethereum.org/en/developers/local-environment/](https://ethereum.org/en/developers/local-environment/)
 - 只要付出 gas，任何人都可以在以太坊上部署智能合约。
+- 智能合约有一个限制，那就是在智能合约内部是感知不到外部世界的事件的，因为无法发送 http 请求。这个目的主要是为了保证以太坊整个计算的纯的，类似 redux，为了保证所有的节点在拿到 transaction 以后最终都能共识到一个状态。这种情况需要靠 oracle 解决，其实就是 blockchain 与真实世界的 bridge。
+	- [https://ethereum.org/en/developers/docs/oracles/](https://ethereum.org/en/developers/docs/oracles/)
+- 另一个限制是目前 smart contract 最大不能超过 24KB。这个限制貌似可以靠 diamond pattern 解决。
+	- [https://eips.ethereum.org/EIPS/eip-2535](https://eips.ethereum.org/EIPS/eip-2535)
 -
+- 有一种特殊的合约称之为多签合约，这种合约的执行需要多个 signature。好处是可以避免单点失败导致合约里持有大量token？（不是很理解啥意思）这种结构还可以保证单个私钥丢失导致的大量资产流失。多签合约通常用于简单的 DAO 治理，类似与投票，需要多个私钥里的大多数，比如 4/ 7。这样还可以保证即使 3 个都丢失，剩下的私钥也可以保持 contract 继续执行。
 -
 -
 -
