@@ -19,5 +19,5 @@
 - 交易会让 eth world state 变更
 - world state(t) → transaction → world state(t + 1)
 - 一次交易大概有如下的一些字段：
-- ````
+-
 -
