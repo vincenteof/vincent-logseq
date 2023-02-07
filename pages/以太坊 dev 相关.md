@@ -60,6 +60,16 @@
 - 所有的以太坊客户端都包含 EVM 的实现
 	- [https://ethereum.org/en/developers/docs/evm/#evm-implementations](https://ethereum.org/en/developers/docs/evm/#evm-implementations)
 	- ![https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png](https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png)
+- 1 gwei = 10^-9 ETH
+- 1 gwei = 1,000,000,000 wei
+- wei 是 以太坊里的最小单位
+- gas fee 在交易中的计算变更过
+- **London update 之前：**
+	- Gas units (limit) * Gas price per unit
+	- gas 从转账发起者滑走，全部给矿工
+- **London update 之后：**
+	- Gas units (limit) * (Base fee + Tip)
+	-
 -
 -
 -
