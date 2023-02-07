@@ -69,7 +69,15 @@
 	- gas 从转账发起者滑走，全部给矿工
 - **London update 之后：**
 	- Gas units (limit) * (Base fee + Tip)
+	- 区别在于 base fee 会被直接销毁掉，矿工会获得剩下的作为奖励
+- 用户还可以设定 max fee（maxFeePerGas），这样与实际 fee 的差额最终会返还交易发起者（本质上是为了解决啥问题？）
+- base fee 的计算是基于之前的 block 的，与当前 block 无关，因此可以让交易手续费更为可预测
+- 具体算法貌似与压缩有关？
+	- [https://www.youtube.com/watch?v=MGemhK9t44Q](https://www.youtube.com/watch?v=MGemhK9t44Q)
+-
+- 以太坊网络实时
 	-
+-
 -
 -
 -
