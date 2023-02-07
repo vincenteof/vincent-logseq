@@ -36,6 +36,13 @@
 - 当用户与合约，或者合约与合约交互时，需要 abi。abi 与 api 类似，不过是在二进制角度的。因为部署在以太坊网络里就是一串 byte code，调用者视角而言就是一串地址，当需要与这串地址交互并获取返回数据时，abi 就派上用场了。
 	- [https://www.quicknode.com/guides/solidity/what-is-an-abi](https://www.quicknode.com/guides/solidity/what-is-an-abi)
 -
+- 一次交易的大致过程：
+	- 交易数据已生成签名，并由 clinet 发出
+	- 交易在网络上被广播，被与期待待打包的交易一起放在一个池子里
+	- miner 打包交易到 block
+	- 数个区块确认后，你的交易被认为是成功的
+- block 就是一批交易，里面还存储着之前 block 的 hash
+- ![https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png](https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png){:height 444, :width 776}
 -
 -
 -
