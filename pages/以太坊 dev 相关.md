@@ -48,7 +48,13 @@
 	- [https://ethereum.org/en/developers/docs/blocks/#block-anatomy](https://ethereum.org/en/developers/docs/blocks/#block-anatomy)
 -
 - 如果说比特币实现的是分布式账本，那么以太坊实现的是分布式状态机。
--
+	- ![https://ethereum.org/static/e8aca8381c7b3b40c44bf8882d4ab930/302a4/evm.png](https://ethereum.org/static/e8aca8381c7b3b40c44bf8882d4ab930/302a4/evm.png)
+- 与 redux 类似
+	- ```
+	  Y(S, T)= S'
+	  // S 老状态
+	  // T 一堆 transaction
+	  ```
 -
 -
 -
