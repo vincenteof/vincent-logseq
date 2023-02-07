@@ -60,6 +60,7 @@
 - 所有的以太坊客户端都包含 EVM 的实现
 	- [https://ethereum.org/en/developers/docs/evm/#evm-implementations](https://ethereum.org/en/developers/docs/evm/#evm-implementations)
 	- ![https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png](https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png)
+-
 - 1 gwei = 10^-9 ETH
 - 1 gwei = 1,000,000,000 wei
 - wei 是 以太坊里的最小单位
@@ -76,7 +77,12 @@
 	- [https://www.youtube.com/watch?v=MGemhK9t44Q](https://www.youtube.com/watch?v=MGemhK9t44Q)
 -
 - 以太坊网络实时
-	-
+	- [https://etherscan.io/nodetracker](https://etherscan.io/nodetracker)
+- **"Node" refers to a running piece of client software.**
+- ![https://ethereum.org/static/aab39e6ce2a2a0ec074d19c4613281c1/ac25d/nodes.png](https://ethereum.org/static/aab39e6ce2a2a0ec074d19c4613281c1/ac25d/nodes.png)
+- 以太坊世界欢迎用户去跑一个node，这样会让以太坊网络更去中心化。
+- 除此之外对用户自身也有一些好处，主要是针对体量比较大的一些用户或者 dapp 的开发者
+-
 -
 -
 -
