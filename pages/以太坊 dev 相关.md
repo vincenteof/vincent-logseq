@@ -82,7 +82,20 @@
 - ![https://ethereum.org/static/aab39e6ce2a2a0ec074d19c4613281c1/ac25d/nodes.png](https://ethereum.org/static/aab39e6ce2a2a0ec074d19c4613281c1/ac25d/nodes.png)
 - 以太坊世界欢迎用户去跑一个node，这样会让以太坊网络更去中心化。
 - 除此之外对用户自身也有一些好处，主要是针对体量比较大的一些用户或者 dapp 的开发者
+	- [https://ethereum.org/en/developers/docs/nodes-and-clients/#benefits-to-you](https://ethereum.org/en/developers/docs/nodes-and-clients/#benefits-to-you)
 -
+-
+- 因为以太坊是一个协议，所以会有很多不同的独立网络，互相不会干扰。
+- account 是互通的，但是 balance 和 history 是无法从主网上携带到其他网络的。
+-
+- 理论上来说，一旦有人能控制网络里的 51%，那么他就可以干扰共识机制。
+- 不同的共识算法就是采取不同的方式让 51% 攻击更不容易发生。
+- 针对与 POW 而言，攻击者需要掌握超过 51% 的算力。This would require such huge investments in equipment and energy; you're likely to spend more than you'd gain.
+- POS 是由质押 ETH 的 validator 完成的，validator 被随机选取以产生新的 block。攻击 POS 需要达成掌握系统里超过 51% 的质押的 eth。
+- POS 与 POW 只是一种便捷的叫法，实际上决定一个共识算法，即选择出最新的一个 block 的作者，的是 **Sybil resistance 和 chain selection**
+- **Sybil resistance** 是指针对女巫攻击的防范能力，女巫攻击我简单的理解为少数人的决策伪造成多数人的决策。POS 与 POW 在解决这个问题上我觉得是类似的，它们本质上没有解决这个问题，只不过在这两种体系下，伪造身份需要资源，即算力或 token，想要伪造大量身份需要大量资源，投入产出比变得很低。
+- C**hain selection** 说的是如何去决定一条链是一条正确的链，以太坊和比特币目前都基于最长链原则，即最长的链会被其他节点认为是合法的并与之交互。
+- POW + 最长链 = 中本聪共识
 -
 -
 -
