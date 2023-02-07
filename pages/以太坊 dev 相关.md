@@ -43,6 +43,13 @@
 	- 数个区块确认后，你的交易被认为是成功的
 - block 就是一批交易，里面还存储着之前 block 的 hash
 - ![https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png](https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png){:height 444, :width 776}
+- 一旦某个 block 被 miner 挖到，它会把这个消息广播到网络的其他地方，其他节点会也把这个 block 加到它们自己的 chain 上，来达成共识。（POW）
+- block 里含有下面的信息
+	- [https://ethereum.org/en/developers/docs/blocks/#block-anatomy](https://ethereum.org/en/developers/docs/blocks/#block-anatomy)
+-
+- 如果说比特币实现的是分布式账本，那么以太坊实现的是分布式状态机。
+-
+-
 -
 -
 -
