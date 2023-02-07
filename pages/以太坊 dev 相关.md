@@ -111,7 +111,7 @@
 - 智能合约相关资源：
 	- [https://ethereum.org/en/developers/docs/smart-contracts/#smart-contract-resources](https://ethereum.org/en/developers/docs/smart-contracts/#smart-contract-resources)
 -
-- 智能合约里有两种类型的数据：storage 与 memory。storage 代表了链上状态，会永久存储在链上。而 memory 是合约函数调用里的变了，不会被存储在链上。初次之外还有一些全局状态里的数据，链上或者当前交易的信息： msg.sender  block.timestamp。
+- 智能合约里有两种类型的数据：storage 与 memory。storage 代表了链上状态，会永久存储在链上。而 memory 是合约函数调用里的变了，不会被存储在链上。除此之外还有一些全局状态里的数据，链上或者当前交易的信息： msg.sender  block.timestamp。
 - 有两种 function，internal 与 external，前者不会产生 evm call，后者是合约的接口，它可以被外部合约通过 transaction 调用。
 -
 -
