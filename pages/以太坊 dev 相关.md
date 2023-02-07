@@ -106,7 +106,12 @@
 - 另一个限制是目前 smart contract 最大不能超过 24KB。这个限制貌似可以靠 diamond pattern 解决。
 	- [https://eips.ethereum.org/EIPS/eip-2535](https://eips.ethereum.org/EIPS/eip-2535)
 -
-- 有一种特殊的合约称之为多签合约，这种合约的执行需要多个 signature。好处是可以避免单点失败导致合约里持有大量token？（不是很理解啥意思）这种结构还可以保证单个私钥丢失导致的大量资产流失。多签合约通常用于简单的 DAO 治理，类似与投票，需要多个私钥里的大多数，比如 4/ 7。这样还可以保证即使 3 个都丢失，剩下的私钥也可以保持 contract 继续执行。
+- 有一种特殊的合约称之为多签合约，这种合约的执行需要多个 signature。好处是可以避免单点失败导致合约里持有大量token。这种结构还可以保证单个私钥丢失导致的大量资产流失。多签合约通常用于简单的 DAO 治理，类似与投票，需要多个私钥里的大多数，比如 4/ 7。这样还可以保证即使 3 个都丢失，剩下的私钥也可以保持 contract 继续执行。
+-
+- 智能合约相关资源：
+	- [https://ethereum.org/en/developers/docs/smart-contracts/#smart-contract-resources](https://ethereum.org/en/developers/docs/smart-contracts/#smart-contract-resources)
+-
+-
 -
 -
 -
