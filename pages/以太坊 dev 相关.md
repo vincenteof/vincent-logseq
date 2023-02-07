@@ -19,7 +19,7 @@
 - 交易会让 eth world state 变更
 - world state(t) → transaction → world state(t + 1)
 - 一次交易大概有如下的一些字段：
-- ```
+- ```json
   {
     from: "0xEA674fdDe714fd979de3EdF0F56AA9716B898ec8",
     to: "0xac03bb73b6a9e108530aff4df5077c2b3d481e5a",
@@ -30,4 +30,5 @@
     value: "10000000000"
   }
   ```
+- 这里面好几个字段都和 gas 有关，gas 是以太坊世界里仍和计算所需要的
 -
