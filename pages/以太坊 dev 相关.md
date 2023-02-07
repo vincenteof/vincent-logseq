@@ -97,6 +97,12 @@
 - C**hain selection** 说的是如何去决定一条链是一条正确的链，以太坊和比特币目前都基于最长链原则，即最长的链会被其他节点认为是合法的并与之交互。
 - POW + 最长链 = 中本聪共识
 -
+- smart contract 最终会被编译到 evm bytecode。它们不仅是开源代码，更是不会宕机的 open api service。为了与以太坊网络交互，首先需要连接到以太坊节点。节点存储了全量的以太坊状态并且对完成对交易的共识后在以太坊上写入数据。web app 可以直接与节点交互，或者通过一个 server side 与节点交互。
+	- [https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application](https://www.preethikasireddy.com/post/the-architecture-of-a-web-3-0-application)
+	- [https://ethereum.org/en/developers/local-environment/](https://ethereum.org/en/developers/local-environment/)
+- 只要付出 gas，任何人都可以在以太坊上部署智能合约。
+-
+-
 -
 -
 -
