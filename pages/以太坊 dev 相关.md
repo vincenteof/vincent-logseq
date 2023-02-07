@@ -55,7 +55,11 @@
 	  // S 老状态
 	  // T 一堆 transaction
 	  ```
--
+- 就以太坊而言，它的状态是一堆堆账户，存储在[modified Merkle Patricia Trie](https://eth.wiki/en/fundamentals/patricia-tree)
+- EVM 的模型是一种 stack machine，编译出来的智能合约的 bytecode 执行 EVM 的底层指令（opcode）。
+- 所有的以太坊客户端都包含 EVM 的实现
+	- [https://ethereum.org/en/developers/docs/evm/#evm-implementations](https://ethereum.org/en/developers/docs/evm/#evm-implementations)
+	- ![https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png](https://ethereum.org/static/9628ab90bfd02f64cf873446cbdc6c70/302a4/gas.png)
 -
 -
 -
