@@ -30,5 +30,14 @@
     value: "10000000000"
   }
   ```
-- 这里面好几个字段都和 gas 有关，gas 是以太坊世界里仍和计算所需要的
+- 这里面好几个字段都和 gas 有关，gas 是以太坊世界里仍和计算所需要的（具体的 fee 计算方法？）
+- 为了能被成功验证和相应，这个 transaction data 还要被用用户的 private key 签名（具体 case？）
+-
+- 当用户与合约，或者合约与合约交互时，需要 abi。abi 与 api 类似，不过是在二进制角度的。因为部署在以太坊网络里就是一串 byte code，调用者视角而言就是一串地址，当需要与这串地址交互并获取返回数据时，abi 就派上用场了。
+	- [https://www.quicknode.com/guides/solidity/what-is-an-abi](https://www.quicknode.com/guides/solidity/what-is-an-abi)
+-
+-
+-
+-
+-
 -
