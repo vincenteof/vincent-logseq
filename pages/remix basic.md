@@ -27,3 +27,6 @@
 - 一些 remix 的常用工具：
 	- https://github.com/m5r/awesome-remix
 -
+- indie stack 相关技术栈：
+	- https://github.com/remix-run/indie-stack
+-
