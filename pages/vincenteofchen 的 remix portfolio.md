@@ -3,10 +3,7 @@
 		- https://github.com/Girish21/speed-metal-stack
 	- 详细说明各种方案的一篇文章：
 		- https://andre-landgraf.dev/blog/2022-05-29_how-to-integrate-markdown-content-with-syntax-highlighting-in-remix/
-	-
-	-
-	- https://www.youtube.com/watch?v=5O6uhyaSvCM
-	-
--
+	- 一个比较简单的博客系统的 youtube 教程
+		- https://www.youtube.com/watch?v=5O6uhyaSvCM
 -
 -
