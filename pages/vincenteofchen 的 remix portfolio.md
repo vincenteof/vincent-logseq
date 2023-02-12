@@ -1,6 +1,7 @@
 - 如何在 remix.run 里集成 markdown content
 	- 基于 kent 的一个 remix 模板：
 		- https://github.com/Girish21/speed-metal-stack
+			- https://github.com/Girish21/speed-metal-stack
 	- 详细说明各种方案的一篇文章：
 		- https://andre-landgraf.dev/blog/2022-05-29_how-to-integrate-markdown-content-with-syntax-highlighting-in-remix/
 	- 一个比较简单的博客系统的 youtube 教程
