@@ -6,4 +6,4 @@
 	- 一个比较简单的博客系统的 youtube 教程
 		- https://www.youtube.com/watch?v=5O6uhyaSvCM
 -
--
+- 网上大多数 CMS 的方案，要么把 markdown 存数据库，要么为啥不直接读文件系统？
