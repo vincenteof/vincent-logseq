@@ -11,4 +11,6 @@
 	- 可以直接用 github 当 CMS 用，github 本身提供各种 rest api，可以使用 [octokit](https://octokit.github.io/rest.js/v19/)，需要注意的是一些 api 需要配置 github token
 - 为 react-markdown 实现 codeblock 高亮
 	- https://amirardalan.com/blog/syntax-highlight-code-in-markdown
--
+- 关于 markdown 样式渲染
+	- https://tailwindcss.com/docs/typography-plugin
+	- 这个非常nice
