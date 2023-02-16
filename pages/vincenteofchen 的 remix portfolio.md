@@ -13,4 +13,4 @@
 	- https://amirardalan.com/blog/syntax-highlight-code-in-markdown
 - 关于 markdown 样式渲染
 	- https://tailwindcss.com/docs/typography-plugin
-	- 这个非常nice
+	- 这个非常 nice
