@@ -18,5 +18,8 @@
 	- https://kentcdodds.com/blog/how-i-built-a-modern-website-in-2021
 	- very nice
 - 因为访问 github api 速度很慢，所以需要实现 cache 机制：
+	- kent 从 redis 迁移到了 litefs，但 fly.io 的 litefs 还处于 beta 阶段
+	- https://kentcdodds.com/blog/i-migrated-from-a-postgres-cluster-to-distributed-sqlite-with-litefs
+	- https://github.com/Xiphe/cachified
 	-
 	-
