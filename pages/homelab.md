@@ -1,0 +1,7 @@
+-
+- 参考：
+	- https://blog.stdioa.com/2021/09/homelab-share/
+	- https://icyleaf.com/2022/02/how-to-homelab-part-0/
+	- https://lvlv.fun/posts/2022-05-08/
+	- https://v2ex.com/t/859782
+	- https://twitter.com/river_leaves/status/1428712696615260163
