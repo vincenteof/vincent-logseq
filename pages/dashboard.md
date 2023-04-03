@@ -20,9 +20,10 @@
 	- btc，eth
 	- 智能合约相关
 	- ipfs
-- functional programming
-	- haskell，purescript
-	- scheme
+- programming language
+	- haskell
+	- zig
+	-
 -
 - todo
 	- {{query (todo later)}}
