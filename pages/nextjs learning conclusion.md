@@ -2,4 +2,10 @@
 - 初始化项目：
 	- 1. 可以通过 create-next-app
 	  2. 引入 next 的依赖手动设置
+	- 两种方式唯一的区别是第一种会有个默认页面及一些默认的 css，个人倾向于用第一种然后删除不需要的内容
+-
+- api routes：
+	- 可以直接在 app 目录下新建 api 目录来完成 api routes 的定义。
+	- 服务端能否通过 /api/xxx 调用 api end-point?
+		-
 	-
