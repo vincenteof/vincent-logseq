@@ -7,5 +7,8 @@
 - api routes：
 	- 可以直接在 app 目录下新建 api 目录来完成 api routes 的定义。
 	- 服务端能否通过 /api/xxx 调用 api end-point?
+		- https://stackoverflow.com/questions/69297975/next-js-fetch-internal-api-route
 		-
-	-
+-
+- data fetching:
+	- https://nextjs.org/docs/basic-features/data-fetching/overview#getserversideprops-server-side-rendering
