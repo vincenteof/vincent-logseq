@@ -7,4 +7,8 @@
 		- 20 个字节
 		- 有普通地址和 payable 地址
 		- 有成员变量
+	- 定长字节数组 bytes
+		- byte，bytes8，bytes32
+	- enum
+		- 可以 uint 转换
 	-
