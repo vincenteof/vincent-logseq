@@ -11,4 +11,13 @@
 		- byte，bytes8，bytes32
 	- enum
 		- 可以 uint 转换
-	-
+	- 函数
+		- ```javascript
+		  function <function name> (<parameter types>) {internal|external|public|private} [pure|view|payable] [returns (<return types>)]
+		  ```
+		- {} 表示可见性
+		- [] 表示功能权限
+			- payable 表示该函数可以给合约转入 ETH
+			- `pure` 和 `view` 与 gas fee 有关
+				- 因为合约的状态存储在链上，
+			-
