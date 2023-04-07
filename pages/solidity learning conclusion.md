@@ -1,0 +1,10 @@
+- solidity 里的类型：
+	- bool
+	- 整型
+		- 和很多底层语言一样，区分长度，比如 int，uint，uint256
+	- address
+		- 以太坊地址
+		- 20 个字节
+		- 有普通地址和 payable 地址
+		- 有成员变量
+	-
