@@ -62,8 +62,10 @@
 		- 输出
 			- `return` 与 `returns`
 				- returns 在函数声明上，用于声明返回值类型及名称
-				- return 在函数主题内，接着指定的变量
-				-
+				- return 在函数主题内，接着返回的变量
+				- ```javascript
+				  function <function name> (<parameter types>) {internal|external|public|private} [pure|view|payable] [returns (<return types>)]
+				  ```
 	-
 -
 -
