@@ -68,8 +68,15 @@
 				    return(1, true, [uint256(1),2,5]);
 				  }
 				  ```
-	-
--
+			- 使用 returns 声明的变量名，只需要把对应的结果赋给它们，不需要手动 return
+			- solidity 支持解构
+				- ```javascript
+				  	uint256 _number;
+				      bool _bool;
+				      uint256[3] memory _array;
+				      (_number, _bool, _array) = returnNamed();
+				  ```
+			-
 -
 -
 - 参考：
