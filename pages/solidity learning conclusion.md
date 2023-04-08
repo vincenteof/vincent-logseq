@@ -17,7 +17,6 @@
 		  ```
 		- {} 表示可见性
 		- [] 表示功能权限
-			- payable 表示该函数可以给合约转入 ETH
 			- `pure` 和 `view` 与 gas fee 有关
 				- 因为合约的状态存储在链上，如果不改链上状态就不用付 gas fee，包含这两个关键字的函数是不该写链上状态的，因此用户调用不用付 gas fee。
 					- 在以太坊中，以下语句被视为修改链上状态：
@@ -35,15 +34,23 @@
 						    new_number = number + 1;
 						  }
 						  ```
-			- `interal` vs `external`
+			- `internal` vs `external`
 				- internal 函数外部无法抵用，部署之后 remix 上不会展示出来
-				  collapsed:: true
 					- ```javascript
 					  function minus() internal {
 					    number = number - 1;
 					  }
 					  ```
-- 、
+				- external 可以调 internal，这样 internal也暴露到了外部
+				  collapsed:: true
+					- ```javascript
+					  function minusCall() external {
+					    minus();
+					  }
+					  ```
+			- `payable` 表示该函数可以给合约转入 ETH
+				-
+-
 -
 -
 - 参考：
