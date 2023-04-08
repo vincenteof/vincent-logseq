@@ -23,3 +23,9 @@
 			- 在以太坊中，以下语句被视为修改链上状态：
 				- https://www.wtf.academy/solidity-start/Function/#%E5%88%B0%E5%BA%95%E4%BB%80%E4%B9%88%E6%98%AFpure%E5%92%8Cview
 			-
+			-
+-
+-
+-
+- 参考：
+- https://github.com/AmazingAng/WTF-Solidity
