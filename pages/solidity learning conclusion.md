@@ -36,8 +36,14 @@
 						  }
 						  ```
 			- `interal` vs `external`
-				-
--
+				- internal 函数外部无法抵用，部署之后 remix 上不会展示出来
+				  collapsed:: true
+					- ```javascript
+					  function minus() internal {
+					    number = number - 1;
+					  }
+					  ```
+- 、
 -
 -
 - 参考：
