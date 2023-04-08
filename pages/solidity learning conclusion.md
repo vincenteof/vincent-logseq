@@ -17,6 +17,7 @@
 		  ```
 		- {} 表示可见性
 		- [] 表示功能权限
+		  collapsed:: true
 			- `pure` 和 `view` 与 gas fee 有关
 				- 因为合约的状态存储在链上，如果不改链上状态就不用付 gas fee，包含这两个关键字的函数是不该写链上状态的，因此用户调用不用付 gas fee。
 					- 在以太坊中，以下语句被视为修改链上状态：
@@ -49,7 +50,19 @@
 					  }
 					  ```
 			- `payable` 表示该函数可以给合约转入 ETH
-				-
+				- ```javascript
+				  function minusPayable() external payable returns(uint256 balance) {
+				    minus();
+				    balance = address(this).balance;
+				  }
+				  ```
+				- this 引用合约本身
+				- 在 remix 里可以在调用的时候设置支付金额
+			-
+		- 输出
+			- `return` 与 `returns`
+				- returns 在
+	-
 -
 -
 -
