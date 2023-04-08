@@ -22,7 +22,12 @@
 				- 因为合约的状态存储在链上，如果不改链上状态就不用付 gas fee，包含这两个关键字的函数是不该写链上状态的，因此用户调用不用付 gas fee。
 			- 在以太坊中，以下语句被视为修改链上状态：
 				- https://www.wtf.academy/solidity-start/Function/#%E5%88%B0%E5%BA%95%E4%BB%80%E4%B9%88%E6%98%AFpure%E5%92%8Cview
-			-
+			- pure 与 view 的区别
+				- pure 只能是一些申明入参和出参的纯函数，它连读区合约状态都不行
+					- ```javascript
+					  
+					  ```
+				- view 可以读取合约状态但不能写
 			-
 -
 -
