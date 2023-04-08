@@ -25,9 +25,16 @@
 			- pure 与 view 的区别
 				- pure 只能是一些申明入参和出参的纯函数，它连读区合约状态都不行
 					- ```javascript
-					  
+					  function addPure(uint256 _number) external pure returns(uint256 new_number){
+					    new_number = _number+1;
+					  }
 					  ```
 				- view 可以读取合约状态但不能写
+					- ```javascript
+					  function addView() external view returns(uint256 new_number) {
+					    new_number = number + 1;
+					  }
+					  ```
 			-
 -
 -
