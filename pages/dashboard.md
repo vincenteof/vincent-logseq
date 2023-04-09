@@ -12,17 +12,19 @@
 		- rollup
 		- turopack
 	- 前端框架
-		- react
+		- react, nextjs
+- backend
+	- serverless
 - engineering
 	- git
 	- 容器化
 - web3
+	- 密码学
 	- btc，eth
 	- 智能合约相关
 	- ipfs
-- programming language
+- functional programming
 	- haskell
-	- zig
 	-
 -
 - todo
