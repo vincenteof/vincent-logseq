@@ -25,7 +25,6 @@
 	- ipfs
 - functional programming
 	- haskell
-	-
 -
 - todo
 	- {{query (todo later)}}
