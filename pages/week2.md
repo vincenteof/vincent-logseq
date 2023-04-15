@@ -1,0 +1,38 @@
+- Block cipher
+	- example: 3DES, AES
+	- 流程：
+		- 先把 k 扩张成 n 个，k1 到 kn
+		- 用 ki 做 pipe 反复加密 m，做 n 轮的迭代
+	- block cipher 会比 stream cipher 慢很多，但是能解决一些不同的问题
+	- 抽象：
+		- pseudo random function (PRF)
+			- it is defined over (K, X, Y)
+			- F: K * X -> Y
+			- 存在高效算法计算 F(k, x)
+		- pseudo random permutation (PRP)
+			- it is defined over (K, X)
+			- E: K * X -> X
+			- 把 x 做一个同一个空间的映射
+		- 要求：
+			- 存在 “efficient” “deterministic” 的算法计算 E(k, x)
+			- 函数 E(k, ) 是 one-one-one
+			- 存在 “efficient” 的 inversion algorithm D(k, y) 解密
+	- AES: K * X -> X where K = X = {0,1}^128
+	- 3DES: K * X -> X where X = {0, 1}^64 K = {0,1}^168
+	- 所有的 PRP 也是 PRF
+		- PRP 是 X=Y 的 PRF 并且 efficiently invertible
+	- secure 的定义：
+		- F: K * X -> Y 是一个 PRF
+			- Funs[X,Y] 表示所有从 X 到 Y 的函数的集合
+			- SF = { F(k, )  s.t. k 属于 K} 是 Funs[X,Y] 的子集合
+		- a PRF is secure if
+			- a random function in Funs[X,Y] is indistinguishable from a random function n SF
+			- 不断给真的随机函数和 F(k, ) 喂参数，无法区分出两者
+	- 将 PRF 转化为 PRG
+		- F: K * {0, 1}^n -> {0, 1}^n 是一个 secure PRF
+		- 如下定义 的 G: K -> {0, 1}^nt 是一个 secure PRG (把较短的 k 转化成较长的 k)
+			- G(k) = F(k, 0) || F(k, 1) || ... || F(k, t)
+		- 类似于用一个 counter 作为把 F 的结果连接起来，总长度是 n * t
+		- 这个转化是可以并行化计算的
+		- 安全性依赖于 F 的安全性
+-
