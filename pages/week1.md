@@ -313,4 +313,3 @@
 		- stream cipher E derived from G is semantically secure
 	- ...
 -
--
