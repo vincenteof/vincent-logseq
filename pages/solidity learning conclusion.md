@@ -76,8 +76,26 @@
 				      uint256[3] memory _array;
 				      (_number, _bool, _array) = returnNamed();
 				  ```
-			-
--
+		- 引用类型：
+			- 有以下几种：
+				- 数组
+				- 结构体
+				- 映射
+			- 因为占用空间大，所以直接传地址。这些类型的变量需要在使用时申明数据的存储位置。
+			- 位置分为三类 `storage`，`memory`，`calldata`。主要区别是 gas 成本不同，`storage` 存链上，消耗 gas 最多，`memory` 与 `calldata` 在临时内存里，gas 消耗低。
+				- 合约状态默认都是 `storage`，在链上
+				- 函数参数与局部变量一般用 `memory` 不上链
+				- `calldata` 与 `memory` 类似，区别是 calldata 是 immutable 的，一般用于函数参数
+			- 不同位置的变量互相赋值存在一些规则，决定是直接传递 reference 还是产生副本：
+				- 合约 storage 变量赋予函数内 storage 变量，会创建引用
+				- storage 给 memory，会创建副本
+				- memory 传 memory 是引用
+				- 其余 case 都是副本
+		- solidity 中变量的作用域有三种：
+			- state variable，local variable，global variable
+			- state variable：合约的链上状态，所有合约都可访问，gas 消耗高，合约内函数外声明
+			- local variable：很普通，就是函数的栈上变量
+			- global variable：预留关键字，可以在函数内不申明直接用，比如：`msg.sender`, block.number和msg.data  [链接](https://learnblockchain.cn/docs/solidity/units-and-global-variables.html#special-variables-and-functions)
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
