@@ -128,7 +128,30 @@
 				  
 				  Student student;
 				  ```
-			-
+			- 给结构体赋值
+				- ```javascript
+				  function initStudent1() external {
+				  	// 生成引用
+				  	Student storage _student = student;
+				  	_student.id = 11;
+				  	_student.score = 100;
+				  }
+				  ```
+			- 或者直接对合约状态变量赋值
+				- ```javascript
+				  function initStudent2() external {
+				  	student.id = 1;
+				  	student.score = 80;
+				  }
+				  ```
+		- mapping 映射关系：
+			- 声明：
+				- `mapping(uint => address) public idToAddress;`
+				  id:: 64525870-d893-49df-a547-a242d30b46d6
+				- `mapping(address => address) public swapPair;`
+			- 规则：
+				- mapping 的 `_KeyType` 只能选择 solidity 的默认类型，比如 `uint` 和 `address` 等。而 `_ValueType` 可以使用自定义类型。
+				- 映射的存储位置必须是 storage，因此可用于合约的状态变量，函数中的 storage 变量，和 library 的参数 （[例子](https://github.com/ethereum/solidity/issues/4635)）。不能用于 public 函数的参数和返回结果。
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
