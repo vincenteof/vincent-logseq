@@ -95,7 +95,14 @@
 			- state variable，local variable，global variable
 			- state variable：合约的链上状态，所有合约都可访问，gas 消耗高，合约内函数外声明
 			- local variable：很普通，就是函数的栈上变量
-			- global variable：预留关键字，可以在函数内不申明直接用，比如：`msg.sender`, block.number和msg.data  [链接](https://learnblockchain.cn/docs/solidity/units-and-global-variables.html#special-variables-and-functions)
+			- global variable：预留关键字，可以在函数内不申明直接用，比如：`msg.sender`, ` block.number` 和 `msg.data ` [链接](https://learnblockchain.cn/docs/solidity/units-and-global-variables.html#special-variables-and-functions)
+		- solidity 中的 array
+			- array 分为固定长度与可变长度两种：
+				- 固定长度数组：在声明时指定数组的长度，如 `uint8[8] array1`
+				- 不定长数组：声明时不指定长度，`uint[] array4`
+				- `bytes` 比较特殊，是数组但是不需要 `[]`，也不能用 `byte[]` 来声明字节数组。可用 `bytes` 或者 `byte1[]`，在 gas 上 `bytes` 比`byte1[]` 数组便宜。
+			- 创建数组的规则：
+				-
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
