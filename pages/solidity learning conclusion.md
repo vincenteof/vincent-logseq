@@ -102,7 +102,33 @@
 				- 不定长数组：声明时不指定长度，`uint[] array4`
 				- `bytes` 比较特殊，是数组但是不需要 `[]`，也不能用 `byte[]` 来声明字节数组。可用 `bytes` 或者 `byte1[]`，在 gas 上 `bytes` 比`byte1[]` 数组便宜。
 			- 创建数组的规则：
-				-
+				- 对于用 `memory` 创建的动态数组，可以用 new 操作符来创建，但是必须声明长度。
+					- ```javascript
+					  bytes memory array9 = new bytes(9)
+					  ```
+				- 也可以用字面量创建数组，如果默认的 type 是最小单位，也可以通过声明字一个变量的类型来手动指定
+					- ```javascript
+					  [uint(1), 2, 3]
+					  ```
+				- 创建的动态数组需要一个一个赋值
+					- ```javascript
+					  uint[] memory x = new uint[](3);
+					  x[0] = 1;
+					  x[1] = 3;
+					  x[2] = 4;
+					  ```
+					- 数组的属性方法：`length`，`push()`，`push(x)`，`pop()`
+		- 结构体：
+			- 定义
+				- ```rust
+				  struct Student {
+				  	uint256 id;
+				  	uint256 score;
+				  }
+				  
+				  Student student;
+				  ```
+			-
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
