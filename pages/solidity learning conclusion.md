@@ -166,8 +166,8 @@
 		- 常量：
 			- solidity 中常量分为 `constant` 和 `immutable`
 			- 可以用常量来节省 gas
-			- constant 在声明的时候就必须给初始值，而 immutable 可以先声明后赋值
-			- 只有数值类型能声明成 constant 或者 immutable；string 和 bytes 可以为 constant 但不能为 immutable。
+			- `constant` 在声明的时候就必须给初始值，而 `immutable` 可以先声明后赋值
+			- 只有数值类型能声明成 `constant` 或者 `immutable`；`string` 和 `bytes` 可以为 `constant` 但不能为 `immutable`。
 		- 控制流：
 			- 几乎与 JS 相同
 		- constructor 与 modifier：
