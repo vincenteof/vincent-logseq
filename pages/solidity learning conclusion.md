@@ -151,7 +151,27 @@
 				- `mapping(address => address) public swapPair;`
 			- 规则：
 				- mapping 的 `_KeyType` 只能选择 solidity 的默认类型，比如 `uint` 和 `address` 等。而 `_ValueType` 可以使用自定义类型。
-				- 映射的存储位置必须是 storage，因此可用于合约的状态变量，函数中的 storage 变量，和 library 的参数 （[例子](https://github.com/ethereum/solidity/issues/4635)）。不能用于 public 函数的参数和返回结果。
--
+				- mapping 的存储位置必须是 `storage`，因此可用于合约的状态变量，函数中的 `storage` 变量，和 library 的参数 （[例子](https://github.com/ethereum/solidity/issues/4635)）。不能用于 public 函数的参数和返回结果。
+				- 如果 mapping 声明为 `public`，那么 solidity 会自动给你创建一个 getter 函数，可以通过 key 来查询对应的 value。
+				- 给 mapping 新增一个键值对
+					- ```javascript
+					  function writeMap (uint _Key, address _Value) public{
+					  	idToAddress[_Key] = _Value;
+					  }
+					  ```
+			- 原理：
+				- mapping 不存储任何 key 的资讯，也没有 length 资讯
+				- mapping 使用 `keccak256(key)` 当成 offset 存取 value
+				- 以太坊会定义未使用的空间为 0。所以未赋值的 kv 是各个 type 的默认值
+		- 常量：
+			- solidity 中常量分为 `constant` 和 `immutable`
+			- 可以用常量来节省 gas
+			- constant 在声明的时候就必须给初始值，而 immutable 可以先声明后赋值
+			- 只有数值类型能声明成 constant 或者 immutable；string 和 bytes 可以为 constant 但不能为 immutable。
+		- 控制流：
+			- 几乎与 JS 相同
+		- constructor 与 modifier：
+			-
+			-
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
