@@ -171,6 +171,7 @@
 		- 控制流：
 			- 几乎与 JS 相同
 		- constructor 与 modifier：
+		  collapsed:: true
 			- `constructor` 是一种特殊的函数，每个合约可以定义一个，在部署合约的时候自动执行一次。可以用它来初始化合约的一些参数。
 				- ```javascript
 				  address owner; // 定义owner变量
@@ -189,6 +190,16 @@
 				  }
 				  ```
 				- 代有`onlyOwner`修饰符的函数只能被`owner`地址调用，比如下面这个例子：
-				-
+				- ```javascript
+				  function changeOwner(address _newOwner) external onlyOwner{
+				        owner = _newOwner; // 只有owner地址运行这个函数，并改变owner
+				  }
+				  ```
+				- oppenzeppelin 的标准实现
+					- https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
+			-
+		- 事件：
+			-
+-
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
