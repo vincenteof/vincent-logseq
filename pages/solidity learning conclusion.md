@@ -171,7 +171,24 @@
 		- 控制流：
 			- 几乎与 JS 相同
 		- constructor 与 modifier：
-			-
-			-
+			- `constructor` 是一种特殊的函数，每个合约可以定义一个，在部署合约的时候自动执行一次。可以用它来初始化合约的一些参数。
+				- ```javascript
+				  address owner; // 定义owner变量
+				  
+				  // 构造函数
+				  constructor() public {
+				    owner = msg.sender; // 在部署合约的时候，将owner设置为部署者的地址
+				  }
+				  ```
+			- `modifier` 类似于其他语言里的 `decorator`。主要运用场景是允许函数前的检查，例如地址，变量，余额等。
+				- ```javascript
+				  // 定义modifier
+				  modifier onlyOwner {
+				    require(msg.sender == owner); // 检查调用者是否为owner地址
+				    _; // 如果是的话，继续运行函数主体；否则报错并revert交易
+				  }
+				  ```
+				- 代有`onlyOwner`修饰符的函数只能被`owner`地址调用，比如下面这个例子：
+				-
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
