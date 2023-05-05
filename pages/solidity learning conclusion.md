@@ -200,8 +200,14 @@
 			-
 		- 事件：
 			- Solidity 中的 event 是 EVM 上日志的抽象，它有两个特点：
-				- 应用程序（ether.js）可以通过 RPC 接口
-			-
+				- 相应：应用程序（ether.js）可以通过 RPC 接口订阅和监听这些事件，并在前端做相应。
+				- 经济：事件是 EVM 上比较经济的存储数据的方式，每个大概消耗 2000-5000 的 gas。相比之下，存储一个新的链上变量至少 20000 gas。
+			- 事件声明：
+				- ```javascript
+				  event Transfer(address indexed from, address indexed to, uint256 value);
+				  ```
+				- from 和 to 带着 `indexed`，表示程序可以对这件两个变量进行筛选。每个事件最多带 3 个
+-
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
