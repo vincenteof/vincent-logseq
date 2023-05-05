@@ -206,8 +206,27 @@
 				- ```javascript
 				  event Transfer(address indexed from, address indexed to, uint256 value);
 				  ```
-				- from 和 to 带着 `indexed`，表示程序可以对这件两个变量进行筛选。每个事件最多带 3 个
--
+				- from 和 to 带着 `indexed`，表示程序可以对这件两个变量进行筛选。每个事件最多带 3 个 `indexed` 的变量。
+			- 以下程序用于转账时释放对应事件：
+				- ```javascript
+				  // 定义_transfer函数，执行转账逻辑
+				  function _transfer(
+				      address from,
+				      address to,
+				      uint256 amount
+				  ) external {
+				  
+				      _balances[from] = 10000000; // 给转账地址一些初始代币
+				  
+				      _balances[from] -=  amount; // from地址减去转账数量
+				      _balances[to] += amount; // to地址加上转账数量
+				  
+				      // 释放事件
+				      emit Transfer(from, to, amount);
+				  }
+				  ```
+			- 在 etherscan 上可以查询事件：
+				-
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
