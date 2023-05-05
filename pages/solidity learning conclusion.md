@@ -199,6 +199,8 @@
 					- https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol
 			-
 		- 事件：
+			- Solidity 中的 event 是 EVM 上日志的抽象，它有两个特点：
+				-
 			-
 -
 - 参考：
