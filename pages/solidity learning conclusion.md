@@ -200,14 +200,17 @@
 			-
 		- 事件：
 			- Solidity 中的 event 是 EVM 上日志的抽象，它有两个特点：
+			  collapsed:: true
 				- 相应：应用程序（ether.js）可以通过 RPC 接口订阅和监听这些事件，并在前端做相应。
 				- 经济：事件是 EVM 上比较经济的存储数据的方式，每个大概消耗 2000-5000 的 gas。相比之下，存储一个新的链上变量至少 20000 gas。
 			- 事件声明：
+			  collapsed:: true
 				- ```javascript
 				  event Transfer(address indexed from, address indexed to, uint256 value);
 				  ```
 				- from 和 to 带着 `indexed`，表示程序可以对这件两个变量进行筛选。每个事件最多带 3 个 `indexed` 的变量。
 			- 以下程序用于转账时释放对应事件：
+			  collapsed:: true
 				- ```javascript
 				  // 定义_transfer函数，执行转账逻辑
 				  function _transfer(
@@ -226,7 +229,9 @@
 				  }
 				  ```
 			- 在 etherscan 上可以查询事件：
-				-
+			  collapsed:: true
+				- https://www.wtf.academy/solidity-start/Event/#%E5%9C%A8etherscan%E4%B8%8A%E6%9F%A5%E8%AF%A2%E4%BA%8B%E4%BB%B6
+		-
 -
 - 参考：
 - https://github.com/AmazingAng/WTF-Solidity
