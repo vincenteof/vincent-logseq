@@ -7,6 +7,7 @@
 - 本科/上海师范大学计算机系
 - 工作年限: 6年
 - Github: [vincenteof](https://github.com/vincenteof)
+- twitter: [@vincenteof](https://twitter.com/vincenteof)
 - ENS: vincenteof.eth
 - 期望职位:  前端开发工程师
 ## **技术总结**
