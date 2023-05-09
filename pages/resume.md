@@ -5,7 +5,7 @@
 ## **个人信息**
 - 上海/男/1994
 - 本科/上海师范大学计算机系
-- 工作年限: 3年
+- 工作年限: 6年
 - Github: [vincenteof](https://github.com/vincenteof)
 - ENS: vincenteof.eth
 - 期望职位:  前端开发工程师
@@ -27,7 +27,7 @@
 ### **Java Web开发, 高知特信息技术有限公司 (2017/3 ~ 2018/4)**
 
 在职期间我主要负责为客户搭建站内搜索app，主要包含一个站点的搜索页入口以及一个管理后台。项目用到了Spring Boot提供API服务，Apache Solr以及Apache Nuch去做索引以及数据抓取。
-## **个人小玩具**
+- ## **个人项目**
 - [仿 React 的 UI 框架](https://github.com/vincenteof/FakeReact)
 - [React 路由组件](https://github.com/vincenteof/essence-router)
 - [又一个玩具 Promise 实现](https://github.com/vincenteof/affirmation)
