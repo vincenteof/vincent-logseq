@@ -27,11 +27,8 @@
 	- haskell
 -
 - todo
-  collapsed:: true
 	- {{query (todo later)}}
-	  collapsed:: true
 - in progress
   collapsed:: true
 	- {{query (todo now)}}
-	  collapsed:: true
 	-
