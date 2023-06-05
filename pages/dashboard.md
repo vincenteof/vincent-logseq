@@ -17,6 +17,7 @@
 	- serverless
 - engineering
 	- git
+	- nix
 	- 容器化
 - web3
 	- 密码学
@@ -25,10 +26,13 @@
 	- ipfs
 - functional programming
 	- haskell
+	- lisp
 -
 - todo
 	- {{query (todo later)}}
+	  collapsed:: true
 - in progress
-  collapsed:: true
 	- {{query (todo now)}}
 	-
+-
+-
