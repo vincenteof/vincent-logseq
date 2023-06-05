@@ -30,6 +30,7 @@
 -
 - todo
 	- {{query (todo later)}}
+	  query-table:: false
 	  collapsed:: true
 - in progress
 	- {{query (todo now)}}
