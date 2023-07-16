@@ -15,6 +15,7 @@
 		- react, nextjs
 - backend
 	- serverless
+	- http server
 - engineering
 	- git
 	- nix
