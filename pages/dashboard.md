@@ -5,6 +5,7 @@
 		- others
 	- 网络相关
 		- http
+		- nginx
 		- ssr
 	- 构建相关
 		- webpack
