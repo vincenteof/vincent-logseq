@@ -1,0 +1,54 @@
+{:blocks (
+{:block/content "12121"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"}
+:block/parent 
+{:block/uuid #uuid "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"}
+:block/properties 
+{}
+:block/uuid #uuid "651ad1dc-a93b-4277-aa04-904ae176f921"} 
+{:block/created-at 1696256476962
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "651ad1dc-a93b-4277-aa04-904ae176f921"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 41]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "efee3620-612e-11ee-8fa6-094cdaa3adc0"
+:noFill false
+:point [336 168]
+:parentId "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"
+:collapsedHeight 0
+:nonce 1696256471684}}
+:block/updated-at 1696256476962})
+:pages (
+{:block/uuid #uuid "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"
+:name "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("efee3620-612e-11ee-8fa6-094cdaa3adc0")}}
+:block/updated-at 1696256481088
+:block/created-at 1696256464459
+:block/type "whiteboard"
+:block/name "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"
+:block/original-name "651ad1d0-a81f-4eb7-890a-f0b62ae32e53"})}
