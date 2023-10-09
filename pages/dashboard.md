@@ -35,5 +35,3 @@
 	  query-table:: false
 - in progress
 	- {{query (todo now)}}
-- doing
-	- {{query (todo doing)}}
