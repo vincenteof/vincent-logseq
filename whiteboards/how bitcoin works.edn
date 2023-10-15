@@ -45,7 +45,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"} 
-{:block/created-at 1697382910533
+{:block/created-at 1697383259920
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -71,8 +71,8 @@
 :point [608 192]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1696779695265}}
-:block/updated-at 1697382910533})
+:nonce 1696779695271}}
+:block/updated-at 1697383259920})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -85,7 +85,7 @@
 :nonce 1
 :assets []
 :shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697382910533
+:block/updated-at 1697383312868
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
