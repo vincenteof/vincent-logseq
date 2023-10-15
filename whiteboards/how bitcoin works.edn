@@ -45,7 +45,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"} 
-{:block/created-at 1697383259920
+{:block/created-at 1697383314942
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -62,7 +62,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [552 161]
+:size [552 137]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -71,8 +71,44 @@
 :point [608 192]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1696779695271}}
-:block/updated-at 1697383259920})
+:nonce 1696779695272}}
+:block/updated-at 1697383314942} 
+{:block/content "这两个性质结合可以实现 digital equivalent of a sealed envelope。hiding 保证在 envelope 被打开前没人知道里面的具体信息，collision resistance 保证信封里的内容确实是原本放入的信息。"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"}
+:block/parent 
+{:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"}
+:block/properties 
+{}
+:block/uuid #uuid "652c0398-4cf9-442f-b95e-cd05bfe8dd06"} 
+{:block/created-at 1697383415155
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 2
+:scale [1 1]
+:pageId "652c0398-4cf9-442f-b95e-cd05bfe8dd06"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 113]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "950a0320-6b6e-11ee-8fa6-094cdaa3adc0"
+:noFill false
+:point [928 536]
+:parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
+:collapsedHeight 0
+:nonce 1697383318809}}
+:block/updated-at 1697383415155})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -84,8 +120,8 @@
 {}
 :nonce 1
 :assets []
-:shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697383312868
+:shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0")}}
+:block/updated-at 1697383454467
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
