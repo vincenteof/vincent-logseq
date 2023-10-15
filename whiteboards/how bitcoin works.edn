@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1696779599816}}
 :block/updated-at 1696779691285} 
-{:block/content "比特币使用的 hash function 有的一些性质\n1. collision resistance。很难人为的制造 hash 碰撞，只有硬算。这个性质可用于防止被篡改。\n2. hiding。计算时单向不可逆的，即 hash 结果不泄露任何原始信息。也只能通过把输入空间全部算一遍来得知原始值。\n3. puzzle friendly。"
+{:block/content "比特币使用的 hash function 有的一些性质\n1. collision resistance。很难人为的制造 hash 碰撞，只有硬算。这个性质可用于防止被篡改。\n2. hiding。计算时单向不可逆的，即 hash 结果不泄露任何原始信息。也只能通过把输入空间全部算一遍来得知原始值。\n3. puzzle friendly。事先不知道哪个输入能得到某种固定格式的输出。挖苦啊"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "6522cd53-7baa-4a83-8bba-2126f250d865"}
@@ -45,7 +45,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"} 
-{:block/created-at 1697383614914
+{:block/created-at 1697383851252
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -62,7 +62,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [552 161]
+:size [552 185]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -71,9 +71,9 @@
 :point [608 192]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1696779695273}}
-:block/updated-at 1697383614914} 
-{:block/content "这两个性质结合可以实现 digital equivalent of a sealed envelope。hiding 保证在 envelope 被打开前没人知道里面的具体信息，collision resistance 保证信封里的内容确实是原本放入的信息。这个得以成立的条件是输入空间要足够大，不然需要对原本信息加个 nounce 再 hash。"
+:nonce 1696779695278}}
+:block/updated-at 1697383851252} 
+{:block/content "前两个性质结合可以实现 digital equivalent of a sealed envelope。hiding 保证在 envelope 被打开前没人知道里面的具体信息，collision resistance 保证信封里的内容确实是原本放入的信息。这个得以成立的条件是输入空间要足够大，不然需要对原本信息加个 nonce 再 hash。"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"}
@@ -109,7 +109,7 @@
 :collapsedHeight 0
 :nonce 1697383318811}}
 :block/updated-at 1697383584605} 
-{:block/created-at 1697383614926
+{:block/created-at 1697383851273
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -126,7 +126,7 @@
 :id "fe055142-6b6e-11ee-8fa6-094cdaa3adc0"
 :fontWeight 400
 :noFill true
-:point [955.6 354]
+:point [969.09 378]
 :fontSize 20
 :handles 
 {:start 
@@ -137,14 +137,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [156.39 178]
+:point [140.14 154]
 :bindingId "fe055141-6b6e-11ee-8fa6-094cdaa3adc0"}}
 :decorations 
 {:end "arrow"}
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
-:nonce 1697383494867
+:nonce 1697383494872
 :italic false}}
-:block/updated-at 1697383614926})
+:block/updated-at 1697383851273})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -172,7 +172,7 @@
 :nonce 1
 :assets []
 :shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0" "fe055142-6b6e-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697383625506
+:block/updated-at 1697383851285
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
