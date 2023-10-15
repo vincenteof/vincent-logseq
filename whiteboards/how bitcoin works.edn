@@ -36,14 +36,16 @@
 :collapsedHeight 0
 :nonce 1696779599816}}
 :block/updated-at 1696779691285} 
-{:block/content ""
+{:block/content "比特币使用的 hash function 有的一些性质\n1. 很难人为的制造 hash 碰撞，只有硬算 (collision resistance)\n2."
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "6522cd53-7baa-4a83-8bba-2126f250d865"}
 :block/parent 
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"}
+:block/properties 
+{}
 :block/uuid #uuid "6522cdbc-033f-4a23-a64c-05cdef9672ca"} 
-{:block/created-at 1696779787935
+{:block/created-at 1697382484007
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -60,7 +62,7 @@
 :compact true
 :isAutoResizing true
 :type "logseq-portal"
-:size [472 41]
+:size [472 89]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -69,8 +71,8 @@
 :point [608 192]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1696779695192}}
-:block/updated-at 1696779787935})
+:nonce 1696779695194}}
+:block/updated-at 1697382484007})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -83,7 +85,7 @@
 :nonce 1
 :assets []
 :shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1696779787935
+:block/updated-at 1697382554353
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
