@@ -36,7 +36,7 @@
 :collapsedHeight 0
 :nonce 1696779599816}}
 :block/updated-at 1696779691285} 
-{:block/content "比特币使用的 hash function 有的一些性质\n1. collision resistance。很难人为的制造 hash 碰撞，只有硬算。这个性质可用于防止被篡改。\n2. hiding。计算时单向不可逆的，即 hash 结果不泄露任何原始信息。也只能通过把输入空间全部算一遍来得知原始值。\n3. puzzle friendly。事先不知道哪个输入能得到某种固定格式的输出。挖矿本质上就是去算哪个 nouce 可以使得 `H(Block Header) <= target`\n比特币使用的是 ** SHA-256"
+{:block/content "比特币使用的 hash function 有的一些性质\n1. collision resistance。很难人为的制造 hash 碰撞，只有硬算。这个性质可用于防止被篡改。\n2. hiding。计算时单向不可逆的，即 hash 结果不泄露任何原始信息。也只能通过把输入空间全部算一遍来得知原始值。\n3. puzzle friendly。事先不知道哪个输入能得到某种固定格式的输出。挖矿本质上就是去算哪个 nouce 可以使得 `H(Block Header) <= target`\n比特币使用的是 **SHA-256**"
 :block/format :markdown
 :block/left 
 {:block/uuid #uuid "6522cd53-7baa-4a83-8bba-2126f250d865"}
@@ -82,7 +82,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "652c0398-4cf9-442f-b95e-cd05bfe8dd06"} 
-{:block/created-at 1697383584605
+{:block/created-at 1697384061197
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -104,12 +104,12 @@
 :opacity 1
 :id "950a0320-6b6e-11ee-8fa6-094cdaa3adc0"
 :noFill false
-:point [928 536]
+:point [944 560]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1697383318811}}
-:block/updated-at 1697383584605} 
-{:block/created-at 1697384015726
+:nonce 1697383318861}}
+:block/updated-at 1697384061197} 
+{:block/created-at 1697384061203
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -126,7 +126,7 @@
 :id "fe055142-6b6e-11ee-8fa6-094cdaa3adc0"
 :fontWeight 400
 :noFill true
-:point [983.57 402]
+:point [981.55 402]
 :fontSize 20
 :handles 
 {:start 
@@ -137,14 +137,14 @@
 :end 
 {:id "end"
 :canBind true
-:point [122.69 130]
+:point [142.39 154]
 :bindingId "fe055141-6b6e-11ee-8fa6-094cdaa3adc0"}}
 :decorations 
 {:end "arrow"}
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
-:nonce 1697383494873
+:nonce 1697383494879
 :italic false}}
-:block/updated-at 1697384015726} 
+:block/updated-at 1697384061203} 
 {:block/content "挖矿很难，但验证很简单，只要算一遍 hash 即可。"
 :block/format :markdown
 :block/left 
@@ -154,7 +154,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "652c060d-7bdd-41b5-b151-eaff9968ed20"} 
-{:block/created-at 1697383999159
+{:block/created-at 1697384059007
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -177,12 +177,12 @@
 :opacity 1
 :id "0ca5b680-6b70-11ee-8fa6-094cdaa3adc0"
 :noFill false
-:point [1016 -16]
+:point [976 -8]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1697383949063}}
-:block/updated-at 1697383999159} 
-{:block/created-at 1697384015729
+:nonce 1697383949137}}
+:block/updated-at 1697384059007} 
+{:block/created-at 1697384059013
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -199,25 +199,25 @@
 :id "1f05ff62-6b70-11ee-8fa6-094cdaa3adc0"
 :fontWeight 400
 :noFill true
-:point [1003.95 29]
+:point [992.47 37]
 :fontSize 20
 :handles 
 {:start 
 {:id "start"
 :canBind true
-:point [0 162]
+:point [0 154]
 :bindingId "1f05ff60-6b70-11ee-8fa6-094cdaa3adc0"}
 :end 
 {:id "end"
 :canBind true
-:point [184.19 0]
+:point [158.34 0]
 :bindingId "1f05ff61-6b70-11ee-8fa6-094cdaa3adc0"}}
 :decorations 
 {:end "arrow"}
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
-:nonce 1697383979754
+:nonce 1697383979760
 :italic false}}
-:block/updated-at 1697384015729})
+:block/updated-at 1697384059013})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -261,7 +261,7 @@
 :nonce 1
 :assets []
 :shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0" "fe055142-6b6e-11ee-8fa6-094cdaa3adc0" "0ca5b680-6b70-11ee-8fa6-094cdaa3adc0" "1f05ff62-6b70-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697384037753
+:block/updated-at 1697384061197
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
