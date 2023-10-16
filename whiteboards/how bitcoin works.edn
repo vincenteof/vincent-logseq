@@ -8,7 +8,7 @@
 :block/properties 
 {}
 :block/uuid #uuid "6522cd53-7baa-4a83-8bba-2126f250d865"} 
-{:block/created-at 1697466645941
+{:block/created-at 1697466660818
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -31,11 +31,11 @@
 :opacity 1
 :id "f091fdc0-65f0-11ee-8fa6-094cdaa3adc0"
 :noFill false
-:point [112 120]
+:point [-8 -104]
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :collapsedHeight 0
-:nonce 1696779599833}}
-:block/updated-at 1697466645941} 
+:nonce 1696779600081}}
+:block/updated-at 1697466660818} 
 {:block/content "比特币使用的 hash function 有的一些性质\n1. collision resistance。很难人为的制造 hash 碰撞，只有硬算。这个性质可用于防止被篡改。\n2. hiding。计算时单向不可逆的，即 hash 结果不泄露任何原始信息。也只能通过把输入空间全部算一遍来得知原始值。\n3. puzzle friendly。事先不知道哪个输入能得到某种固定格式的输出。挖矿本质上就是去算哪个 nouce 可以使得 `H(Block Header) <= target`\n比特币使用的是 **SHA-256**"
 :block/format :markdown
 :block/left 
@@ -298,7 +298,7 @@
 :nonce 1
 :assets []
 :shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0" "fe055142-6b6e-11ee-8fa6-094cdaa3adc0" "0ca5b680-6b70-11ee-8fa6-094cdaa3adc0" "1f05ff62-6b70-11ee-8fa6-094cdaa3adc0" "c61ac550-6c2f-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697466645941
+:block/updated-at 1697466660818
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
