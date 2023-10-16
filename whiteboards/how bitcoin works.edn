@@ -217,7 +217,43 @@
 :parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :nonce 1697383979760
 :italic false}}
-:block/updated-at 1697384059013})
+:block/updated-at 1697384059013} 
+{:block/content "在比特币中，开设账户只需要在本地生成公私钥对。非对称加密相较于对称加密，解决了密钥分发困难的问题。某人发起一笔转账，"
+:block/format :markdown
+:block/left 
+{:block/uuid #uuid "652c060d-7bdd-41b5-b151-eaff9968ed20"}
+:block/parent 
+{:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"}
+:block/properties 
+{}
+:block/uuid #uuid "652d47b7-3e57-421f-b9ba-943531910e80"} 
+{:block/created-at 1697466449169
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "B"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 6
+:scale [1 1]
+:pageId "652d47b7-3e57-421f-b9ba-943531910e80"
+:scaleLevel "md"
+:fill ""
+:compact true
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 88.99999999999999]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "c61ac550-6c2f-11ee-8fa6-094cdaa3adc0"
+:noFill false
+:point [648 -328]
+:parentId "6522ccae-2e85-4fe4-8e34-f75f8235367f"
+:collapsedHeight 0
+:nonce 1697466293803}}
+:block/updated-at 1697466449169})
 :pages (
 {:block/uuid #uuid "6522ccae-2e85-4fe4-8e34-f75f8235367f"
 :block/properties 
@@ -260,8 +296,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0" "fe055142-6b6e-11ee-8fa6-094cdaa3adc0" "0ca5b680-6b70-11ee-8fa6-094cdaa3adc0" "1f05ff62-6b70-11ee-8fa6-094cdaa3adc0")}}
-:block/updated-at 1697384061197
+:shapes-index ("f091fdc0-65f0-11ee-8fa6-094cdaa3adc0" "2963bcb0-65f1-11ee-8fa6-094cdaa3adc0" "950a0320-6b6e-11ee-8fa6-094cdaa3adc0" "fe055142-6b6e-11ee-8fa6-094cdaa3adc0" "0ca5b680-6b70-11ee-8fa6-094cdaa3adc0" "1f05ff62-6b70-11ee-8fa6-094cdaa3adc0" "c61ac550-6c2f-11ee-8fa6-094cdaa3adc0")}}
+:block/updated-at 1697466480675
 :block/created-at 1696779438470
 :block/type "whiteboard"
 :block/name "how bitcoin works"
