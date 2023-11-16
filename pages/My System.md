@@ -1,4 +1,4 @@
 - Blief
 	- Play long time game, Make steady growth, Let time be your leverage
-	-
-	-
+- Tech
+	- React
