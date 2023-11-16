@@ -1,6 +1,8 @@
-- Blief
+- Blief and action
 	- Play long time game, make steady growth, let time be your leverage.
 	- You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
-	- 设定明确的目标，专注于更少的事情，人生是资源游戏。
+	- 设定明确的目标，专注于更少的事情，研究更基本的问题。人生是资源游戏。
 - Tech
 	- React
+	-
+	-
