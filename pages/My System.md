@@ -1,2 +1,4 @@
 - Blief
-	- Play
+	- Play long time game, Make steady growth, Let time be your leverage
+	-
+	-
