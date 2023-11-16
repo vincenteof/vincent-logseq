@@ -1,4 +1,5 @@
 - Blief
 	- Play long time game, Make steady growth, Let time be your leverage
+	- You need to establish a mechanism for correction. So don't be afraid of the truth, neve
 - Tech
 	- React
