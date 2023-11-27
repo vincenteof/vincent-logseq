@@ -38,4 +38,3 @@
 - done
 	- {{query (todo DONE)}}
 	  query-table:: false
-	  collapsed:: true
