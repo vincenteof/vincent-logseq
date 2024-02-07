@@ -35,6 +35,7 @@
 	  query-table:: false
 	  collapsed:: true
 - in progress
+  collapsed:: true
 	- {{query (todo now)}}
 - done
 	- {{query (todo DONE)}}
