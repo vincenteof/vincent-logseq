@@ -4,7 +4,8 @@
 	- 设定明确的目标，专注于更少的事情，研究更基本的问题。
 - Focus
 	- React and frontend development
-	- How to
+	- Blockchain and smart contract
+	- System design knowledge for shipping personal product
+	- How to write elegant code
 - Plan
 	- [[2024 Q1 Plan]]
--
