@@ -5,4 +5,6 @@
 - Tech
 	- React
 	- Knowledge to ship my personal product
-	- CS essense
+	- CS essence
+- Plan
+	- logseq://graph/vincent-logseq?page=2024%20Q1%20Plan
