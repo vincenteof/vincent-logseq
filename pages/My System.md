@@ -5,7 +5,7 @@
 		- Done is better than perfect. Refine through iteration.
 	- Still thinking
 		- 设定明确的目标，专注于更少的事情，研究更基本的问题。
-			- 这个一个有用的建议，但是不确定是否百分之百适合我，因我的性格需要早学习一个东西的时候
+			- 这个一个有用的建议，但是不确定是否百分之百适合我，因我的性格需要早学习一个东西的时候获得足够多的正反馈，如果把太多时间放在基本功上可能会让我过早地放弃一件事。
 - Focus
 	- React and frontend development
 	- Blockchain and smart contract
