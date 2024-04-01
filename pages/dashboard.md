@@ -19,7 +19,8 @@
 	- http server
 	- go
 - System Design
-	- go
+	- 分布式系统课程
+	- erlang
 - engineering
 	- git
 	- nix
