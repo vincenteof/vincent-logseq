@@ -17,10 +17,14 @@
 - backend
 	- serverless
 	- http server
+	- go
+- System Design
+	- go
 - engineering
 	- git
 	- nix
 	- 容器化
+	- nginx
 - web3
 	- 密码学
 	- btc，eth
