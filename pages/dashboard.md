@@ -34,7 +34,6 @@
 - functional programming
 	- haskell
 	- lisp
--
 - todo
 	- {{query (todo later)}}
 	  query-table:: false
