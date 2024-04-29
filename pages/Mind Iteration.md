@@ -2,3 +2,4 @@
 - You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
 - Done is better than perfect. Refine through iteration.
 - Focusing on fewer things which are really essential and fundamental, or you will be exhausted.
+	- 核心还是把控节奏与反馈周期，因为长时间投入进基础领域的学习
