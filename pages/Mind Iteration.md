@@ -1,9 +1,4 @@
-- Belief and action
-	- For sure
-	- Still thinking
-		- 设定明确的目标，专注于更少的事情，研究更基本的问题。
-			- 这个一个有用的建议，但是不确定是否百分之百适合我，因我的性格需要在学习一个东西的时候获得足够多的正反馈，如果把太多时间放在基本功上可能会让我过早地放弃一件事。
 - Play long time game, make steady growth, let time be your leverage.
 - You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
 - Done is better than perfect. Refine through iteration.
-- Focusing on less things which is
+- Focusing on fewer things which are really essential and fundamental, or you will be exhausted.
