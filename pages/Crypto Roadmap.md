@@ -4,7 +4,8 @@
 - 密码学
 	- 图解密码学技术
 	- Real-World Cryptography
-	-
+- 零知识证明
+	- https://github.com/sec-bit/learning-zkp/blob/master/zkp-resource-list.md
 - 区块链
 	- 精通比特币
 	- 精通以太坊
