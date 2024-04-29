@@ -10,7 +10,7 @@
 - Dapp 开发
 	- WTF Solidity
 	- Dapp 协议及源码
-- 协议源码
+- 以太坊
 	- TGPL
 	- 分布式系统
-	- 以太坊源码
+	-
