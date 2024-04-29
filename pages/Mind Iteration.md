@@ -2,4 +2,4 @@
 - You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
 - Done is better than perfect. Refine through iteration.
 - Focusing on fewer things which are really essential and fundamental, or you will be exhausted.
-	- 核心还是把控节奏与反馈周期，因为长时间投入进基础领域的学习
+	- 核心还是把控节奏与反馈周期，因为长时间投入进基础领域的学习，在反馈不足的情况下很难让人坚持。因此适当的关注一些时髦的东西可以延缓你的疲惫周期，但是一旦关注的太多，又会陷入什么都停留
