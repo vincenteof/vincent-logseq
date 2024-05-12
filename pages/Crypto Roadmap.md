@@ -29,4 +29,5 @@
 	- TGPL
 	- 分布式系统
 	- go-ethereum
--
+- lambdaclass 的参考
+	- https://github.com/lambdaclass/lambdaclass_hacking_learning_path
