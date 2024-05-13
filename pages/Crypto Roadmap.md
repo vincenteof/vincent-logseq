@@ -2,6 +2,7 @@
 	- 代数
 	- 具体数学
 	- Lean
+		- theorem proving in lean
 - 密码学
 	- 图解密码学技术
 	- Real-World Cryptography
