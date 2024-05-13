@@ -2,6 +2,7 @@
 	- 代数
 	- 具体数学
 	- Lean
+		- functional programming in lean
 		- theorem proving in lean
 - 密码学
 	- 图解密码学技术
