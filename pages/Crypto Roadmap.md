@@ -28,7 +28,9 @@
 		- https://github.com/Dapp-Learning-DAO/Dapp-Learning
 			- Uniswap
 				- v1
+					- https://jeiwan.net/posts/programming-defi-uniswap-1/
 				- v2
+					- https://jeiwan.net/posts/programming-defi-uniswapv2-1/
 - 以太坊
 	- TGPL
 	- 分布式系统
