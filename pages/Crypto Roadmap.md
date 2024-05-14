@@ -6,6 +6,7 @@
 		- functional programming in lean
 		- theorem proving in lean
 	- discrete mathematics and its applications
+		- logic and proofs
 - 密码学
 	- 图解密码学技术
 	- Real-World Cryptography
@@ -17,6 +18,7 @@
 - Dapp 开发
 	- WTF Solidity
 	- Dapp 开发工具
+	  collapsed:: true
 		- hardhat
 		- the graph
 			- graphql
@@ -25,6 +27,7 @@
 				- apollo-client
 		- docker
 	- Dapp 协议及源码
+	  collapsed:: true
 		- https://github.com/Dapp-Learning-DAO/Dapp-Learning
 			- Uniswap
 				- v1
@@ -32,6 +35,7 @@
 				- v2
 					- https://jeiwan.net/posts/programming-defi-uniswapv2-1/
 					- https://uniswap.org/whitepaper.pdf
+	- Mev Bot
 - 以太坊
 	- TGPL
 	- 分布式系统
