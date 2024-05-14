@@ -5,7 +5,7 @@
 		- https://lean-lang.org/documentation/
 		- functional programming in lean
 		- theorem proving in lean
-	-
+	- discrete mathematics and its applications
 - 密码学
 	- 图解密码学技术
 	- Real-World Cryptography
@@ -31,6 +31,7 @@
 					- https://jeiwan.net/posts/programming-defi-uniswap-1/
 				- v2
 					- https://jeiwan.net/posts/programming-defi-uniswapv2-1/
+					- https://uniswap.org/whitepaper.pdf
 - 以太坊
 	- TGPL
 	- 分布式系统
