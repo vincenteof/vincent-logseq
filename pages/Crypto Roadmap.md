@@ -31,6 +31,7 @@
 			- Uniswap
 				- v1
 				- v2
+			- PancakeSwap lottery
 	- Mev Bot
 	- Defi
 		- roadmap
