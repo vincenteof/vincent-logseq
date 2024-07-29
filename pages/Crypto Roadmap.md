@@ -17,6 +17,7 @@
 	- 精通以太坊
 - Dapp 开发
 	- WTF Solidity
+	- Solidity By Example
 	- Dapp 开发工具
 	  collapsed:: true
 		- hardhat
