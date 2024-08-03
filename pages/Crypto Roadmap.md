@@ -18,6 +18,7 @@
 - Dapp 开发
 	- WTF Solidity
 	- Solidity By Example
+	- EVM
 	- Dapp 开发工具
 	  collapsed:: true
 		- hardhat
