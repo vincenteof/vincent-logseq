@@ -35,6 +35,8 @@
 				- v1
 				- v2
 			- PancakeSwap lottery
+			- aave
+			- curve
 	- Mev Bot
 	- Defi
 		- roadmap
