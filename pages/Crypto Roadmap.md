@@ -37,6 +37,7 @@
 			- PancakeSwap lottery
 			- aave
 			- curve
+			- tornado cash
 	- Mev Bot
 	- Defi
 		- roadmap
