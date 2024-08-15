@@ -43,9 +43,8 @@
 		- roadmap
 			- https://github.com/OffcierCia/DeFi-Developer-Road-Map
 - 以太坊
-	- TGPL
 	- 分布式系统
-	- go-ethereum
+	- ethereumjs
 - lambdaclass 的参考
 	- https://github.com/lambdaclass/lambdaclass_hacking_learning_path
 - 开源项目
