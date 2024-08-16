@@ -42,6 +42,8 @@
 	- Defi
 		- roadmap
 			- https://github.com/OffcierCia/DeFi-Developer-Road-Map
+	- full course
+		- https://updraft.cyfrin.io/courses
 - 以太坊
 	- 分布式系统
 	- 比特币原理
