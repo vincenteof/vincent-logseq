@@ -1,8 +1,0 @@
-- Focus
-	- React and frontend development
-	- Blockchain and smart contract
-	- System design knowledge for shipping personal product
-	- How to write elegant code
-- Plan
-	- [[2024 Q1 Plan]]
-	- [[2024 Q2 Plan]]
