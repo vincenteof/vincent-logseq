@@ -6,5 +6,6 @@
 - If you want to live a happy life, tie it to a goal, not to people or things.
 - 可以走的慢，但必须 consistent，知道自己在干什么，建立一种机制让自己进入良性循环，关注自己身体的化学物质
 - 关注自己，探索自己的内心，追求自由与选择权
+- 诚实地赚钱，像芒格一样，
 - [[精神养分]]
 - [[random thoughts]]
