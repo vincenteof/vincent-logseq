@@ -7,6 +7,7 @@
 - 可以走的慢，但必须 consistent，知道自己在干什么，建立一种机制让自己进入良性循环，关注自己身体的化学物质
 - 关注自己，探索自己的内心，追求自由与选择权
 - 像芒格一样，用自己的智慧诚实地赚钱
+- The currency of life isn’t money. It is not even time. It’s attention.
 - [[投资感悟]]
 - [[random thoughts]]
 - [[精神养分]]
