@@ -208,7 +208,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["我的交易系统" "我的交易思考" "心愿单" "roadmap" "mind iteration" "周报" "crypto roadmap" "个人简历" "tech"]
+ :favorites ["投资框架" "我的交易系统" "我的交易思考" "心愿单" "roadmap" "mind iteration" "周报" "crypto roadmap" "个人简历" "tech"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
