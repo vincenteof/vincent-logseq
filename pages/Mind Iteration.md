@@ -1,13 +1,11 @@
 - Play long time game, make steady growth, let time be your leverage.
 - You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
 - Done is better than perfect. Refine through iteration.
-- Focusing on fewer things which are really essential and fundamental, or you will be exhausted.
-	- 核心还是把控节奏与反馈周期，因为长时间投入进基础领域的学习，在反馈不足的情况下很难让人坚持。因此适当的关注一些时髦的东西可以延缓你的疲惫周期，但是一旦关注的太多，又会陷入什么都停留在很表面的程度。
 - If you want to live a happy life, tie it to a goal, not to people or things.
-- 可以走的慢，但必须 consistent，知道自己在干什么，建立一种机制让自己进入良性循环，关注自己身体的化学物质
+- 可以走的慢，但必须 consistent，知道自己在干什么，建立一种机制让自己进入良性循环，关注自己身体的化学物质。
 - 关注自己，探索自己的内心，追求自由与选择权
 - 像芒格一样，用自己的智慧诚实地赚钱
-- The currency of life isn’t money. It is not even time. It’s attention.
+- The currency of life isn’t money. It is not even time. It’s attention. Attention is all you need.
 - [[投资感悟]]
 - [[random thoughts]]
 - [[精神养分]]
