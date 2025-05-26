@@ -1,4 +1,4 @@
-- Play long time game, make steady growth, let time be your leverage.
+- Play long time game, make steady growth, let time be your leverage（做有复利效应的事）.
 - You need to establish a mechanism for correction. So don't be afraid of the truth, never be angry about the truth, knowing the truth is the first step toward doing everything.
 - Done is better than perfect. Refine through iteration.
 - If you want to live a happy life, tie it to a goal, not to people or things.
